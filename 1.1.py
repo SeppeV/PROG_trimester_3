@@ -36,4 +36,3 @@ print(herman.hair)
 
 heidi = Family("Woman", "blond", "mama", 45, "Heidi")
 print(heidi.Is_sex())
-  
