@@ -1,3 +1,4 @@
+from typing_extensions import Self
 from iniconfig import SectionWrapper
 
 
@@ -18,13 +19,14 @@ class Family:
 
     def birthday(self):
         self.age += 1
-        return f"Happy birthday {self.name} is {self.age}"
+        return f"Happy birthday {self.name} you are {self.age}!"
 
     def related(self):
         return self.relation
     
     def paint_hair(self, color):
         self.hair = color
+
     
 seppe = Family("Man", "buin", "ikzelf", 18, "Seppe")
 seppe.birthday()
