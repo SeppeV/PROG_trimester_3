@@ -35,10 +35,10 @@ class Rectangle:
         self.width = width
         self.height = height
     
-    def width(self, width):
+    def set_width(self, width):
         self.width = width
 
-    def height(self, height):
+    def set_height(self, height):
         self.height = height
 
     def area(self):
@@ -51,10 +51,10 @@ class Rectangle:
 
 class Square(Rectangle):
 
-    def width(self, width):
+    def set_width(self, width):
         self.width = width
         self.height = width
 
-    def height(self, height):
+    def set_height(self, height):
         self.width = height
         self.height = height
